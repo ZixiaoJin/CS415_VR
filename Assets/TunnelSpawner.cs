@@ -19,7 +19,7 @@ public class TunnelSpawner : MonoBehaviour
     [SerializeField, Min(0)] int enemiesPerSegment = 1;
     [SerializeField, Min(0)] int ammoPacksPerSegment = 1;
 
-    const float kItemRadius = 0.5f;
+    const float kItemRadius = 1.5f;
     const float kEpsilon = 0.01f;
 
     readonly Queue<TunnelSegment> active = new();
